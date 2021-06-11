@@ -1,0 +1,23 @@
+.primary{
+    background-color: #1CC7C1;
+}
+.dark{
+    background-color: #3A4256;
+}
+.card-container{
+   height: 100px;
+   padding: 17px;
+   border-radius: 3px;
+   border: 1px solid;
+   padding: 10px;
+   box-shadow: 5px 10px 18px #888888;
+}
+.font-icon{
+    font-size: 3em;
+}
+/* .margin{
+    margin: ;
+} */
+.card-padding{
+    padding:0px 5px;
+}

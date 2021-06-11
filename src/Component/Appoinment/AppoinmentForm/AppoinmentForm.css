@@ -1,0 +1,11 @@
+input.form-control {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }

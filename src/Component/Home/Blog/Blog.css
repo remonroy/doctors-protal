@@ -1,0 +1,14 @@
+.background{
+    background-image: url('../../../images/quote.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #4EDCEC;
+    height:300px;
+    color: #333;
+    width: 300px;
+    padding: 10px;
+}
+.margin {
+    margin-top: 108px;
+}

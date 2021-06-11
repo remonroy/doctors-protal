@@ -1,0 +1,23 @@
+.imaging img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    float: left;
+}
+.rightSite h5 {
+    color: orange;
+}
+.rightSite p {
+    font-size: 10px;
+}
+.rightSite {
+    width: 157px;
+    float: right;
+    margin-top: 17px;
+}
+.bordering p {
+    text-align: justify;
+}
+.bordering {
+    border: 1px solid #ddd;
+}

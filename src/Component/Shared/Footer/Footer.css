@@ -1,0 +1,10 @@
+.heighting{
+    height: 50px;
+    background-image: linear-gradient(#0000007d,#0000007d),url('../../../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
