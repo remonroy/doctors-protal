@@ -7,7 +7,7 @@ const HeaderMain = () => {
                 <h1>Your new smile <br/> starts hear</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi odit rerum molestiae reiciendis repudiandae?</p>
                 {/* <a href className="btn btn-primary">Get appionment</a> */}
-                <a href="http://localhost:3000/appoinment" className="btn btn-primary">Get appionment</a>
+                <a href="https://quiet-ocean-01238.herokuapp.com/appoinment" className="btn btn-primary">Get appionment</a>
             </div>
             <div className="col-md-6">
                 <img src={chair} alt="" className="img-fluid"/>

@@ -26,7 +26,7 @@ const doctorData=[
 const Doctor = () => {
     const [image,setImage]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:4500/doctor")
+        fetch("https://quiet-ocean-01238.herokuapp.com/doctor")
         .then(res=>res.json())
         .then(data=>{
             console.log(data[0].file);

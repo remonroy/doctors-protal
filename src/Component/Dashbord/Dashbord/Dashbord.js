@@ -17,7 +17,7 @@ const Dashbord = () => {
     const handleChange=data=>{
         setDatedata(data);
         const time=data.toDateString()
-        fetch("http://localhost:4500/appoinmentsBuydate",{
+        fetch("https://quiet-ocean-01238.herokuapp.com/appoinmentsBuydate",{
             method:"POST",
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify({time,email:loggedInuser.email})

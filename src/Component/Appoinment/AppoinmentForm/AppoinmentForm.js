@@ -20,7 +20,7 @@ const AppoinmentForm = ({modalIsOpen,closeModal,book,date}) => {
         data.service=book.subject;
         data.date=date.toDateString();
         data.created=(new Date()).toDateString();
-        fetch("http://localhost:4500/addAppoinment",{
+        fetch("https://quiet-ocean-01238.herokuapp.com/addAppoinment",{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify(data)
